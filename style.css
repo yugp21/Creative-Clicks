@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+nav {
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px;
+}
+
+.logo img {
+    height: 6vw;
+    width: 8vw;
+}
+
+.enquire-btn {
+    background-color: #047af0;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.enquire-btn:hover {
+    background-color: #45a049;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 30vw;
+    height: 30vw;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+#hero {
+    min-height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 5vw;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.photos {
+    width: calc(100% - 5px);
+}
+
+
+.photos img {
+    width: 100%;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 3vw;
+}
+
+/* #footer .logo {
+    margin-top: -25vw;
+} */
+
+#social {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    height: 5vw;
+    width: 17vw;
+    padding: 1vw;
+    gap: 2vw;
+    background-color: rgb(255, 255, 255);
+}
+
+#fbutton {
+    background-color: #047af0;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-top: 1vw;
+}
+
+.lh {
+    color: #4d6178;
+    font-family: sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+    margin-top: 3vw;
+}

@@ -1,0 +1,91 @@
+/* Mobile */
+
+@media (max-width: 34em) {
+    nav {
+        background-color: #ffffff;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo img{
+        height: 50vw;
+        width: 50vw;
+    }
+    
+    .enquire-btn {
+        display: none;
+    }
+
+    .swiper {
+        width: 100%;    
+      }
+    
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        height: 60vw;
+        width: 60vw;
+      }
+    
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
+      #hero {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+      }
+      
+      #footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100%;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    #footer .logo {
+        margin-top: -100vw;
+    }
+    
+    #social {
+        margin-top: -10vw;
+        display: flex;
+        flex-direction: row;
+        height: 10vw;
+        width: 25vw;
+        padding: 1vw;
+        gap: 2vw;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    #fbutton {
+        background-color: #047af0;
+        color: white;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-top: 1vw;
+    }
+    
+    .lh {
+        color: #4d6178;
+        font-family: sans-serif;
+        font-size: 3vw;
+        font-weight: 300;
+        margin-top: 5vw;
+    }
+
+}
